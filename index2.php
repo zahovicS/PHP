@@ -7,17 +7,17 @@ $Sueldo=600;//indicar si el sueldo minimo o no
 	echo "<br />";
 	if($Monto>=1000)
 	{
-		echo "Tiene Descuento";
+		echo "Estructura if/else: Tiene Descuento";
 	}
 	else
 	{
-		echo "Sin descuento";
+		echo "Estructura if/else: Sin descuento";
 	}
 
 	echo "<br />";
 	//operador ternario
 	//	'expresion'?'verdero'        :'Flaso'
-	echo $Monto>=1000?"Tiene Descuento":"Sin descuento";
+	echo $Monto>=1000?"Operdador Ternario: Tiene Descuento":"Operdador Ternario: Sin descuento";
 	echo "<br />";
 	echo "<br />";
 	
@@ -25,13 +25,13 @@ $Sueldo=600;//indicar si el sueldo minimo o no
 	echo "<br />";
 	echo "<br />";
 	if ($Edad>=18) {
-	echo "Mayor de edad";
+	echo "Estructura if/else: Mayor de edad";
 	}else
 	{
-	echo "Menor de edad";
+	echo "Estructura if/else: Menor de edad";
 	}
 	echo "<br />";
-	echo $Edad>=18?"Mayor de edad":"Menor de edad";
+	echo $Edad>=18?"Operdador Ternario: Mayor de edad":"Operdador Ternario: Menor de edad";
 	
 	echo "<br />";
 	echo "<br />";
@@ -40,11 +40,11 @@ $Sueldo=600;//indicar si el sueldo minimo o no
 	echo "<br />";
 	echo "<br />";
 	if ($Sueldo==930) {
-		echo "Sueldo minimo";
+		echo "Estructura if/else: Sueldo minimo";
 	}else
 	{
-		echo "No es sueldo minimo";
+		echo "Estructura if/else: No es sueldo minimo";
 	}
 	echo "<br />";
-	echo $Sueldo==930?"Sueldo Minimo":"No es sueldo minimo";
+	echo $Sueldo==930?"Operdador Ternario: Sueldo Minimo":"Operdador Ternario: No es sueldo minimo";
 ?>	
