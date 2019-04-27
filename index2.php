@@ -1,10 +1,10 @@
 <?php 
 	if(true)
 	{
-		echo "Mensaje por ser True"
+		echo "Mensaje por ser True";
 	}
-	false
+	else
 	{
-		echo "Mensaje por ser false"
+		echo "Mensaje por ser false";
 	}
 ?>
